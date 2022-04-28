@@ -12,7 +12,7 @@ int main() {
 
     char s[1001],i;
   int f,j;
-  scanf("%s",s);
+  scanf("%s",&s);
   for(i=48;i<58;i++)
   {   f=0;
       for(j=0;j<strlen(s);j++)
